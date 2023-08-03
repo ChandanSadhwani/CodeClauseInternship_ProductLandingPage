@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.cta-btn {
+    display: block;
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#features ul, #pricing ul, #testimonials .testimonial {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#testimonials .testimonial span {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+#contact form input, #contact form textarea, #contact form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
